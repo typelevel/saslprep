@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 Arman Bilge
+ * Copyright 2021 Typelevel
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -31,7 +31,7 @@
  * limitations under the License.
  */
 
-package com.armanbilge
+package org.typelevel
 
 import java.nio.CharBuffer
 import java.text.Normalizer
@@ -146,7 +146,7 @@ object SaslPrep {
    * Return true if the given {@code codepoint} is a prohibited character as defined by <a
    * href="https://tools.ietf.org/html/rfc4013#section-2.3">RFC 4013, Section 2.3</a>.
    */
-  private[armanbilge] def prohibited(codepoint: Int) = {
+  private[typelevel] def prohibited(codepoint: Int) = {
     nonAsciiSpace(codepoint.toChar) ||
     asciiControl(codepoint.toChar) ||
     nonAsciiControl(codepoint) ||
