@@ -1,2 +1,4 @@
 # saslprep
-saslprep for Scala.js and Scala Native
+Cross-platform implementation of [SASLprep]
+
+[SASLprep]: https://www.rfc-editor.org/rfc/rfc4013.html
