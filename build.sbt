@@ -5,7 +5,7 @@ ThisBuild / tlBaseVersion := "1.0"
 ThisBuild / developers += tlGitHubDev("armanbilge", "Arman Bilge")
 ThisBuild / startYear := Some(2021)
 
-ThisBuild / crossScalaVersions := Seq("3.3.7", "2.12.21", "2.13.18")
+ThisBuild / crossScalaVersions := Seq("3.3.8", "2.12.21", "2.13.18")
 
 ThisBuild / githubWorkflowBuildPreamble +=
   WorkflowStep.Run(
