@@ -21,7 +21,7 @@ lazy val saslprep = crossProject(JVMPlatform, JSPlatform, NativePlatform)
   .in(file("saslprep"))
   .settings(
     libraryDependencies ++= Seq(
-      "io.github.cquiroz" %%% "scala-java-locales" % "1.5.4" % Test,
+      "io.github.cquiroz" %%% "scala-java-locales" % "1.6.0" % Test,
       "org.scalameta" %%% "munit" % "1.3.0" % Test
     )
   )
